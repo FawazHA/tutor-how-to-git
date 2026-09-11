@@ -22,19 +22,35 @@ Follow the step-by-step instructions below to add your profile to our class rost
 ---
 
 ### Step 2: Clone Your Fork to Your Computer
-1. On **your forked repository page** (URL should say `github.com/<YOUR USERNAME>/tutor-how-to-git.git`), click the green **Code** button.
-2. Copy the **HTTPS** web URL.
-3. Open your Terminal (Mac/Linux) or Git Bash / Command Prompt (Windows), and run:
+⚠️ **IMPORTANT LOCATION CHECK:** Do NOT clone directly into your default personal user folder! Create or navigate to your designated coursework folder first.
+
+#### Option A: Using VS Code's Built-in Terminal (Recommended)
+1. Create a folder on your computer for your CS work (e.g., `Documents/Tugas/tutor-how-to-git`).
+2. Open **VS Code**, go to **File > Open Folder...**, and select your `tutor-how-to-git` folder.
+3. Open the built-in terminal in VS Code (`Ctrl + ~` on Windows, `Cmd + ~` on Mac, or top menu **Terminal > New Terminal**).
+4. Copy the **HTTPS** web URL from **your forked repository page** (click the green **Code** button).
+5. In the VS Code terminal, run:
 
 ```bash
-git clone https://github.com/<YOUR USERNAME>/tutor-how-to-git.git
+git clone https://github.com/YOUR-USERNAME/tutor-how-to-git.git
 ```
 
+6. Open the newly cloned folder in VS Code (`File > Open Folder` or run `cd tutor-how-to-git`).
+
+#### Option B: Using Standalone Terminal / Command Prompt
+1. Open your Terminal or Command Prompt.
+2. Navigate to your dedicated coursework folder first (do not run it immediately after opening cmd!):
+   ```bash
+   cd Documents/Tugas/
+   ```
+3. Run the clone command:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/tutor-how-to-git.git
+   ```
 4. Move into the project directory:
-
-```bash
-cd tutor-how-to-git
-```
+   ```bash
+   cd tutor-how-to-git
+   ```
 
 ---
 
